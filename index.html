@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>15 Años de Natalia Andrea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #ffe4e1, #fff);
+      color: #555;
+    }
+
+    header {
+      background-color: #ff77aa;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd700;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background-image: url('ImagenesNatalia/fondoquince.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .hero h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 24px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 48px;
+      color: #ff77aa;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .gallery-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    .gallery p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #ff77aa;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #ff77aa;
+      text-align: center;
+      padding: 20px;
+      color: white;
+      margin-top: 40px;
+      font-size: 16px;
+    }
+  </style>
+
+<style>
+  /* Estrellas flotando */
+  .stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    animation: moveStar 10s linear infinite;
+  }
+
+  @keyframes moveStar {
+    0% {
+      transform: translateY(100vh) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-10vh) scale(0.5);
+      opacity: 0;
+    }
+  }
+</style>
+
+
+</head>
+<body>
+  <body>
+
+    <div class="stars">
+      <div class="star" style="left: 10%; animation-delay: 0s;"></div>
+      <div class="star" style="left: 20%; animation-delay: 2s;"></div>
+      <div class="star" style="left: 30%; animation-delay: 4s;"></div>
+      <div class="star" style="left: 40%; animation-delay: 6s;"></div>
+      <div class="star" style="left: 50%; animation-delay: 1s;"></div>
+      <div class="star" style="left: 60%; animation-delay: 3s;"></div>
+      <div class="star" style="left: 70%; animation-delay: 5s;"></div>
+      <div class="star" style="left: 80%; animation-delay: 7s;"></div>
+      <div class="star" style="left: 90%; animation-delay: 8s;"></div>
+    </div>
+    
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre Natalia</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#mensajes">Mensaje</a></li>
+        <li><a href="#fiesta">La Fiesta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h1>¡Feliz Cumpleaños, Natalia Andrea!</h1>
+    <p>Hoy celebramos tus 15 años de alegría, sueños y aventuras.</p>
+  </section>
+
+  
+  <section id="sobre" class="section" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 30px;">
+  
+      <div style="flex: 1; min-width: 300px; text-align: center;">
+        <img src="ImagenesNatalia/NataliaActual.jpg" alt="Foto de Natalia" style="width: 250px; height: 250px; object-fit: cover; border: 5px solid #ff77aa; border-radius: 20px; box-shadow: 0px 4px 15px rgba(0,0,0,0.3);">
+      </div>
+    
+      <div style="flex: 2; min-width: 300px;">
+        <h2>Sobre Natalia</h2>
+        <p>
+          Natalia Andrea, nuestra enanita hermosa, rebelde, valiente y soñadora. Siempre lista para iluminar el mundo con su alegría, su energía inagotable y su corazón enorme. 💖
+        </p>
+    
+        <p>
+          Con cada paso que das, dejas una huella de amor, valentía y dulzura. Tu risa contagiosa, tus sueños grandes y tu alma libre nos llenan de orgullo. 
+          ¡Hoy celebramos no solo tus 15 años, sino también todo lo maravilloso que eres y todo lo increíble que serás! ✨
+        </p>
+    
+        <h3>Palabras que te describen:</h3>
+        <ul style="list-style: none; padding: 0; font-size: 18px; color: #ff77aa;">
+          <li>💖 Amorosa</li>
+          <li>🌟 Valiente</li>
+          <li>🎀 Soñadora</li>
+          <li>🎶 Alegre</li>
+          <li>💬 Sincera</li>
+          <li>🌸 Única</li>
+          <li>🌈 Luchadora</li>
+        </ul>
+    
+        <blockquote style="font-style: italic; color: #aa5599; margin-top: 30px;">
+          "Que tu sonrisa siga siendo tu mejor vestido, tus sueños el motor de tu vida y tu corazón, el mapa de tu camino." 🌸
+        </blockquote>
+      </div>
+  </section>
+
+  <section id="galeria" class="section">
+    <h2>Galería de Recuerdos</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/nataliabebe.jpg" alt="Natalia bebé">
+        <p>Natalia bebé</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Natalia niñita.jpg" alt="Creciendo">
+        <p>Natalia niña</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Abuelo y Natalia .jpg" alt="Abuelo y Natalia">
+        <p>Abuelo Javier y Natalia</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/cincoañero de Natalia.jpg" alt="Cincoañero">
+        <p>Cincoañero Natalia</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Siempre diva.jpg" alt="Natalia siendo ella">
+        <p>Amante del Halloween</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Mama, Andres y Natalia.jpg" alt="Mama">
+        <p>Mama, Andres y Natalia</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/TogaGradoPrimero.jpg" alt="Grado">
+        <p>Grado primero</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/nataliagradoprimero.jpg" alt="Natalia grado primero">
+        <p>Ceremonia de grado</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/PrimeraComunion.jpg" alt="Natalia grado primero">
+        <p>Primera comunión</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Nono Santiago y Natalia.jpg" alt="Nono">
+        <p>Nono Santiago y Natalia</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Grado de quinto.jpg" alt="Natalia grado primero">
+        <p>Grado de quinto</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/natalianiña.jpg" alt="Natalia niña">
+        <p>Un dia magico</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Con Luis y la madrina .jpg" alt="Natalia grado primero">
+        <p>Personas especiales</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Delfines en Santa marta .jpg" alt="Natalia grado primero">
+        <p>Delfines en Santa Marta</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Cumpleaños de papa .jpg" alt="Natalia grado primero">
+        <p>Cumpleaños de papa</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/En playa.jpg" alt="Natalia grado primero">
+        <p>En playa</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Un cumpleaños mas .jpg" alt="Natalia grado primero">
+        <p>Cumpleaños mas reciente de papa</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Cartagena.jpg" alt="Natalia grado primero">
+        <p>En cartagena</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Cartagena nocturna.jpg" alt="Natalia grado primero">
+        <p>Cartagena nocturna</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Papa y natalia.jpg" alt="Natalia grado primero">
+        <p>Natalia y papa</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Agropecuaria.jpg" alt="Natalia grado primero">
+        <p>Agropecuaria</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/En piscina .jpg" alt="Natalia grado primero">
+        <p>Piscina la 5000</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Ella y yo .jpg" alt="Natalia actual">
+        <p>Andres y Natalia</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Hermanos.jpg" alt="Natalia grado primero">
+        <p>Hermanos</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/Mi todo .jpg" alt="Natalia grado primero">
+        <p>Mi todo</p>
+      </div>
+      <div class="gallery-item">
+        <img src="ImagenesNatalia/NataliaActual2.jpg" alt="Natalia actual 2">
+        <p>Natalia foto estudio</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="mensajes" class="section">
+    <h2>Mensaje de Andres</h2>
+    <p>
+      Natalia Andrea Gil Vergara, mi hermanita, mi enanita, mi princesa:
+
+Desde siempre has sido mi compañera de vida, mi cómplice de aventuras y luchas, mi mayor admiradora, mi fan número uno.
+Eres quien me ha brindado su apoyo incondicional en cada paso que he dado, quien siempre ha estado dispuesta a tenderme la mano y quien ha confiado en mí incluso en mis peores momentos.
+
+Sé que apostarías tu vida por mí, porque conozco tu alma confiada, descomplicada, rebelde, valiente y extrovertida.
+Tantas virtudes que te hacen única, que hacen que sea tan fácil amarte y admirarte.
+
+Hoy te prometo, como siempre, estar para ti: para guiarte, aconsejarte, apoyarte y amarte incondicionalmente.
+Porque tú eres mi única hermana, mi reflejo en otra vida, mi sangre, mis genes, mi alegría... y por eso te amo como a nadie más en este mundo.
+
+Sé que a veces no soy el mejor para expresarme. A veces puedo ser frío, exigente o demasiado crítico.
+De mi parte siempre tendrás el peor plato, el tenedor más feo, el vaso con menos agua... y mi vida, si algún día la necesitas.
+Porque aunque no siempre te lo diga bonito, lo único que quiero es empujarte a ser la mejor versión de ti misma.
+Quiero enseñarte que la vida no siempre es fácil, pero que siempre podrás contar conmigo cuando el mundo parezca fallarte.
+
+Tú te mereces lo mejor que la vida pueda ofrecer, y sueño con poder dártelo.
+Eres mi eterna compañera, la que llena mi vida de amor y de sentido.
+Mi amor por ti es y será siempre incondicional, y tu felicidad será, siempre, mi más grande prioridad.
+
+Te amo, Natalia. Hoy y siempre. 💖
+    </p>
+  </section>
+
+  <section id="fiesta" class="section">
+    <h2>Recuerdos de la fiesta</h2>
+    
+  </section>
+
+  <footer>
+    <p>Con amor para Natalia Andrea 💖 | 2025</p>
+  </footer>
+
+</body>
+</html>
